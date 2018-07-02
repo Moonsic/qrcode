@@ -1,0 +1,44 @@
+{
+    //基本信息
+    cardBaseInfo: {
+        avatarImage: { imageUrl: "http://pic8.qiyipic.com/image/20180428/90/03/a_100006957_m_601_m13_195_260.jpg" }, //头像
+        backGroundImage: { imageUrl: "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1852272875,3816436061&fm=27&gp=0.jpg" }, //封面图
+        fullName: "柯南", //姓名
+        position: "侦探", //职位
+        company: "毛利侦探所", //公司
+        departMent: ["侦探部", "技术部"], //部门
+        layOut: 2 //展示位置
+    },
+    //联系信息
+    cardLinkInfo: {
+        telephone: "0511-110", //固定电话
+        mobilePhone: "18601467018", //移动电话
+        familyPhone: ["0511-120"], //家庭电话
+        fax: ["11112222", "3334444"], //传真
+        email: ["1178867018@qq.com", "2390552479@qq.com"] //电子邮箱
+    },
+    //社交信息
+    cardSocialInfo: {
+        webChat: "gp117018", //微信号
+        isAllowAddFriendByScanWeChatQrcode: 1, //0 不允许 1 允许
+        webChatQrcodeImage: { imageUrl: "" }, //微信二维码 扫描者可以直接在页面中通过链接添加你为好友
+        messenger: ["即时通信1", "即时通信2"], //即时通信
+        webSite: "www.baidu.com", //主页网址
+        weibo: "www.sina.com", //微博
+        qq: "1178867018", //QQ
+        isAllowAddFriendByScanQQQrcode: 1, //0 不允许 1 允许
+        qqQrcodeImage: { imageUrl: "" } //微信二维码 扫描者可以直接在页面中通过链接添加你为好友
+    },
+    //地址
+    address: {
+        longitude: "30.193513", //经度
+        dimension: "120.223289", //维度
+        address: "春波南苑" //中文地址
+    },
+    cardIntroInfo: "真相只有一个", //个人说明
+    //附加信息
+    cardAdditionInfo: {
+        additionalType: 0, //0 素材 1企业码
+        templateId: "" //素材或企业码 对应的主键
+    }
+}
